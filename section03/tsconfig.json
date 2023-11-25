@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "outDir": "dist",
+        "strict": true,
+        "moduleDetection": "force",
+        // moduleResolution 항목은 "Cannot find module 'undici-types'." 이라는 오류 때문에 추가
+        "moduleResolution": "Node"
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "include": ["src"]
+}
