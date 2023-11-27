@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "outDir": "dist",
+        "strict": true,
+        "moduleDetection": "force",
+        "moduleResolution": "Node",
+        "allowJs": true,
+        // noImplicitAny 옵션 : 암시적으로 Any를 허용하지 않을것인지?
+        // => true(기본값) : 암시적 any 허용 X
+        // => false : 암시적 any 허용 O 
+        "noImplicitAny": true,
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "include": ["src"]
+}
