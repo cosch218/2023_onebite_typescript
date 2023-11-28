@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "CommonJS",
+        // target과 module을 ESNext로 설정하지 않는 이유
+        // : 리액트 앱이 어디서든지 잘 동작할 수 있도록 만들기 위함
+        "strict": true,
+        "allowJs": true,
+        "esModuleInterop": true,
+        "jsx": "react-jsx",
+    },
+    "include": ["src"]
+}
